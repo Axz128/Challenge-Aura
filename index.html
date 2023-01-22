@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <h1><img src="Logo.png" alt="logo de alura"></h1>
+        </header>
+
+        <main>
+            
+            <section class="principal">
+                    <textarea class="texto" name="texto" rows= 15 placeholder="Ingrese el texto aqui"></textarea>
+
+                    <div class="botones">
+                    <p>🛈 Solo usar letras minusculas y sin acentos</p>
+                    <input type="button" class="encriptar-buton" value="Encriptar!">
+                    <input type="button" class="desencriptar-buton" value="Desencriptar!">
+                    
+                    </div>
+                
+            </section>
+
+            <section class="secundario">
+                <div class="caja-muñeco">
+                    <img src="Muñeco.png" class="muñeco" alt="Niño con lupa">
+                </div>
+                <div class="caja-nigun">
+                    <h3>Ningun mensaje fue encontrado</h3>
+                </div>
+                <div class="caja-ingrese">
+                    <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+
+                <div class="resultado">   
+                    <p class="texto-resultado" id="acopiar"></p>
+                </div>
+                <div class="copiar">
+                    <input type="button" class="buton-copiar" value="Copiar">
+                </div>
+                
+                
+            </section>
+
+
+
+        </main>
+
+        <footer>
+            <p>Alura - Challenge Encriptador 2023</p>
+        </footer>
+
+        <script src="codigo.js"></script>
+    </body>
+
